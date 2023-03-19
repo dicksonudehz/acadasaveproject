@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.mainContainer {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  background-color: white;
+}
+.leftNavContainer img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.middleNavContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.middleNavContainer ul li {
+  list-style: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-right: 25px;
+  cursor: pointer;
+}
+.rightNavContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+.login {
+  padding: 10px 35px;
+  margin-right: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.signup {
+  padding: 10px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.mainSavingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.savingContainerLeft h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+}
+.savingContainerLeft p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.savingButton {
+  padding: 10px 35px;
+  background-color: rgb(13, 13, 63);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+.savingContainerRight {
+  float: right;
+}
+.savingContainerRight img {
+  width: 80%;
+  object-fit: cover;
+  float: right;
+}
+
+/* how it work content styling  */
+.mainContainerWork {
+  display: flex;
+  flex-direction: column;
+}
+.topContainerWork h1 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+}
+.bottomContainerWork {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.contentContainerWork {
+  padding-top: 50px;
+  overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contentContainerWork img {
+  width: 80px;
+  object-fit: cover;
+}
+.contentContainerWork h1 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.contentContainerWork p {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding: 30px 10px;
+  font-size: 16px;
+}
+.bottomLine {
+  background-color: orangered;
+  width: 100%;
+  height: 3px;
+  border: none;
+  margin-top: 20px;
+}
+/* why choose us container styling  */
+
+.mainChooseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.chooseContainerLeft {
+  flex: 6;
+}
+.chooseContainerLeft h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+}
+.chooseContainerLeft p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.chooseButton {
+  padding: 10px 35px;
+  background-color: rgb(13, 13, 63);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+.middleChooseContainer h1 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+  justify-content: center;
+  text-align: center;
+}
+.middleChooseContainer {
+  align-items: center;
+  justify-content: center;
+}
+.chooseContainerRight {
+  flex: 5;
+}
+.chooseContainerRight img {
+  width: 90%;
+  object-fit: cover;
+  float: right;
+}
+
+/* internship container styling  */
+
+.mainInternshipContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.internshipContainerLeft {
+  flex: 6;
+}
+.internshipContainerLeft img {
+  width: 50%;
+  object-fit: cover;
+  float: left;
+}
+.internshipContainerRight h1 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+  justify-content: center;
+  text-align: left;
+}
+.internshipContainerRight p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.internshipButton {
+  padding: 10px 35px;
+  background-color: rgb(13, 13, 63);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+/* dedicated interest rate container  */
+.mainDedicatedContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.dedicatedContainerRight h1 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+  justify-content: center;
+  text-align: left;
+}
+.dedicatedContainerRight p {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.dedicatedButton {
+  padding: 10px 35px;
+  background-color: rgb(13, 13, 63);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+.dedicatedContainerRight img {
+  width: 80%;
+  object-fit: cover;
+  float: right;
+}
+/* package container styling  */
+.mainPackagesContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.topPackageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topPackageContainer h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+  justify-content: center;
+  text-align: left;
+}
+.bottomPackageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.packageContentContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.bottomPackageContainer p {
+  line-height: 1.5;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+.packageContentContainer h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  color: white;
+  width: 100%;
+}
+.packageBottomLine {
+  background-color: rgb(207, 207, 207);
+  width: 80%;
+  height: 1px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.choosPlan {
+  align-items: center;
+  padding: 20px 50px;
+  background-color: blue;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* comment session styling container  */
+
+.mainCommentContainer {
+  background-color: rgb(212, 212, 212);
+  padding: 100px 0px 100px 100px ;
+  margin-top: 80px;
+  overflow: hidden;
+}
+.commentContentcontainer {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.leftCommentContentContainer{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.leftCommentContentContainer img {
+  width: 30%;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+.leftCommentContentContainer h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: rgb(13, 13, 63);
+  justify-content: center;
+  text-align: left;
+}
+.commentIcons {
+    background-color: white;
+    margin-left: 10px;
+  /* font-size: 18px !important; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* padding: 10px; */
+  /* color: rgb(0, 0, 0); */
+  /* margin-right: 10px; */
+}
+.rightCommentContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainRightCommentContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    overflow: hidden;
+    float: right;
+}
+.rightCommentContent{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.rightCommentContent:first-child{
+    margin-right: 30px;
+}
+.rightCommentContent img{
+    width: 20%;
+    margin-top: 20px;
+}
+.rightCommentContent p{
+    line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.dotContainer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.dotNav{
+    font-size: 20px;
+    color: white;
+}
