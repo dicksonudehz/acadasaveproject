@@ -19,7 +19,7 @@ function Footer() {
         </div>
         <div className="bottomFooterContainer">
           <div className="leftBottomContent">
-                <img src={whitelogoimg} alt="" />
+                <img src={whitelogoimg} alt="illustration" />
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing
                     <br />

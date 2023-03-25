@@ -49,7 +49,7 @@ function Home() {
             <button className="savingButton">get start</button>
           </div>
           <div className="savingContainerRight">
-            <img src={bannerimg} alt="" />
+            <img src={bannerimg} alt="illustration" />
           </div>
         </div>
         {/* how it works body container  */}
@@ -60,7 +60,7 @@ function Home() {
           </div>
           <div className="bottomContainerWork">
             <div className="contentContainerWork">
-              <img src={img2content} alt="" />
+              <img src={img2content} alt="illustration" />
               <h1>register</h1>
               <p>
                 Lorem ipsum dolor sit
@@ -76,7 +76,7 @@ function Home() {
               <hr className="bottomLine" />
             </div>
             <div className="contentContainerWork">
-              <img src={img2content} alt="" />
+              <img src={img2content} alt="illustration" />
               <h1>save</h1>
               <p>
                 Lorem ipsum dolor sit
@@ -92,7 +92,7 @@ function Home() {
               <hr className="bottomLine" />
             </div>
             <div className="contentContainerWork">
-              <img src={img2content} alt="" />
+              <img src={img2content} alt="illustration" />
               <h1>get interest</h1>
               <p>
                 Lorem ipsum dolor sit
@@ -108,7 +108,7 @@ function Home() {
               <hr className="bottomLine" />
             </div>
             <div className="contentContainerWork">
-              <img src={img2content} alt="" />
+              <img src={img2content} alt="illustration" />
               <h1>withdraw</h1>
               <p>
                 Lorem ipsum dolor sit
@@ -149,13 +149,13 @@ function Home() {
             <h1> why choose us</h1>
           </div>
           <div className="chooseContainerRight">
-            <img src={img5content} alt="" />
+            <img src={img5content} alt="illustration" />
           </div>
         </div>
         {/* access to internship container  */}
         <div className="mainInternshipContainer">
           <div className="internshipContainerLeft">
-            <img src={img6content} alt="" />
+            <img src={img6content} alt="illustration" />
           </div>
           <div className="internshipContainerRight">
             <h1>access to internship</h1>
@@ -194,7 +194,7 @@ function Home() {
             <button className="dedicatedButton">get start</button>
           </div>
           <div className="dedicatedContainerRight">
-            <img src={img67content} alt="" />
+            <img src={img67content} alt="illustration" />
           </div>
         </div>
         {/* package container display  */}
@@ -279,7 +279,7 @@ function Home() {
       <div className="mainCommentContainer">
         <div className="commentContentcontainer">
           <div className="leftCommentContentContainer">
-            <img src={quotecontent} alt="" />
+            <img src={quotecontent} alt="illustration" />
             <h1>
               what our
               <br />
@@ -306,7 +306,7 @@ function Home() {
                   <br />
                   ad inventore aliquam? Aperiam, perspiciatis dolor.
                 </p>
-                <img src={image38content} alt="" />
+                <img src={image38content} alt="illustration" />
               </div>
               <div className="rightCommentContent">
                 <p>
@@ -320,7 +320,7 @@ function Home() {
                   <br />
                   ad inventore aliquam? Aperiam, perspiciatis dolor.
                 </p>
-                <img src={image38content} alt="" />
+                <img src={image38content} alt="illustration" />
               </div>
             </div>
               <div className="dotContainer">
