@@ -10,6 +10,7 @@ import image38content from "./images/image38.png";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import MenuIcon from "@mui/icons-material/Menu";
 import "./home.css";
 
 function Home() {
@@ -20,16 +21,23 @@ function Home() {
           <div className="leftNavContainer">
             <img src={logoimg} alt="main logo" />
           </div>
-          <div className="middleNavContainer">
-            <ul>
-              <li>how it works</li>
-              <li>pakages</li>
-              <li>benefits</li>
-            </ul>
-          </div>
-          <div className="rightNavContainer">
-            <button className="login">login</button>
-            <button className="signup">signup</button>
+          
+          <div className="navLinksContainer">
+            <MenuIcon className="navMenu" />
+          <input type="checkbox" className="checkbox" />
+            <div className="checkboxContainer">
+            <div className="middleNavContainer">
+              <ul>
+                <li>how it works</li>
+                <li>pakages</li>
+                <li>benefits</li>
+              </ul>
+            </div>
+            <div className="rightNavContainer">
+              <button className="login">login</button>
+              <button className="signup">signup</button>
+            </div>
+            </div>
           </div>
         </div>
         {/* middle body container  */}
@@ -323,9 +331,9 @@ function Home() {
                 <img src={image38content} alt="illustration" />
               </div>
             </div>
-              <div className="dotContainer">
-                <MoreHorizIcon className="dotNav" />
-              </div>
+            <div className="dotContainer">
+              <MoreHorizIcon className="dotNav" />
+            </div>
           </div>
         </div>
       </div>

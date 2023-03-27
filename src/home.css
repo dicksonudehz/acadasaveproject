@@ -22,6 +22,29 @@
   object-fit: cover;
   cursor: pointer;
 }
+.navLinksContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.navMenu{
+  display: none;
+  opacity: 0;
+}
+.checkbox{
+  display: none;
+}
+.checkboxContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.middleNavContainer{
+  margin-right: 40px;
+}
 .middleNavContainer ul {
   display: flex;
   flex-direction: row;
@@ -32,8 +55,8 @@
   list-style: none;
   font-weight: 600;
   text-transform: capitalize;
-  padding-right: 25px;
   cursor: pointer;
+  padding-right: 25px;
 }
 .rightNavContainer {
   display: flex;
@@ -453,4 +476,136 @@
 .dotNav{
     font-size: 20px;
     color: white;
+}
+
+/* this is styling for mobile responsiveness of the website  */
+@media screen and (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  .mainContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    position: absolute;
+  }
+  .navLinksContainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: flex-start;
+    height: 400px;
+    align-items: flex-end;
+    /* display: none; */
+  }
+  .checkboxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    align-items: flex-end;
+    display: none;
+  }
+  .middleNavContainer{
+   float: right;
+   align-items: flex-end;
+   display: block;
+   flex-direction: column;
+   justify-content: flex-end;
+   width: 100%;
+   margin-right: -24px;
+   margin-top: -10px;
+  }
+  .middleNavContainer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: auto;
+  }
+  .middleNavContainer ul li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    text-align: right;
+    float: right;
+  }
+  .rightNavContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .checkbox{
+    position: relative;
+    margin-right: 5px; 
+    margin-top: 4px;
+    cursor: pointer;
+    display: block;
+    opacity: 0;
+    transition: all 1s;
+
+  }
+  .checkbox:checked ~ .checkboxContainer{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    align-items: flex-end;
+    transition: all 1s;
+    background-color: blue;
+    /* display: none; */
+  }
+  .navMenu{
+    position: absolute;
+    margin-top: -2px;
+    display: block;
+    opacity: 1;
+    transition: all 1s;
+
+  }
+  .login {
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .signup {
+    padding: 10px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    width: 100%;
+
+  }
+  .mainSavingContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 150px;
+  }
+ 
 }
