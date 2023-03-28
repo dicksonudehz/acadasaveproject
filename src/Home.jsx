@@ -21,22 +21,22 @@ function Home() {
           <div className="leftNavContainer">
             <img src={logoimg} alt="main logo" />
           </div>
-          
+
           <div className="navLinksContainer">
             <MenuIcon className="navMenu" />
-          <input type="checkbox" className="checkbox" />
+            <input type="checkbox" className="checkbox" />
             <div className="checkboxContainer">
-            <div className="middleNavContainer">
-              <ul>
-                <li>how it works</li>
-                <li>pakages</li>
-                <li>benefits</li>
-              </ul>
-            </div>
-            <div className="rightNavContainer">
-              <button className="login">login</button>
-              <button className="signup">signup</button>
-            </div>
+              <div className="middleNavContainer">
+                <ul>
+                  <li>how it works</li>
+                  <li>pakages</li>
+                  <li>benefits</li>
+                </ul>
+              </div>
+              <div className="rightNavContainer">
+                <button className="login">login</button>
+                <button className="signup">signup</button>
+              </div>
             </div>
           </div>
         </div>

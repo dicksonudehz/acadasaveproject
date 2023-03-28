@@ -22,27 +22,26 @@
   object-fit: cover;
   cursor: pointer;
 }
-.navLinksContainer{
+.navLinksContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
 }
-.navMenu{
+.navMenu {
   display: none;
   opacity: 0;
 }
-.checkbox{
+.checkbox {
   display: none;
 }
-.checkboxContainer{
+.checkboxContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.middleNavContainer{
+.middleNavContainer {
   margin-right: 40px;
 }
 .middleNavContainer ul {
@@ -392,7 +391,7 @@
 
 .mainCommentContainer {
   background-color: rgb(212, 212, 212);
-  padding: 100px 0px 100px 100px ;
+  padding: 100px 0px 100px 100px;
   margin-top: 80px;
   overflow: hidden;
 }
@@ -403,10 +402,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.leftCommentContentContainer{
-    display: flex;
-    flex-direction: column;
-    float: left;
+.leftCommentContentContainer {
+  display: flex;
+  flex-direction: column;
+  float: left;
 }
 .leftCommentContentContainer img {
   width: 30%;
@@ -423,74 +422,75 @@
   text-align: left;
 }
 .commentIcons {
-    background-color: white;
-    margin-left: 10px;
+  background-color: white;
+  margin-left: 10px;
   /* font-size: 18px !important; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* padding: 10px; */
   /* color: rgb(0, 0, 0); */
   /* margin-right: 10px; */
 }
-.rightCommentContentContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.rightCommentContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.mainRightCommentContent{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    overflow: hidden;
-    float: right;
+.mainRightCommentContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  float: right;
 }
-.rightCommentContent{
-    display: flex;
-    flex-direction: column;
-    float: left;
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
+.rightCommentContent {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
 }
 
-.rightCommentContent:first-child{
-    margin-right: 30px;
+.rightCommentContent:first-child {
+  margin-right: 30px;
 }
-.rightCommentContent img{
-    width: 20%;
-    margin-top: 20px;
+.rightCommentContent img {
+  width: 20%;
+  margin-top: 20px;
 }
-.rightCommentContent p{
-    line-height: 1.5;
+.rightCommentContent p {
+  line-height: 1.5;
   font-size: 16px;
   font-weight: normal;
   text-align: left;
 }
-.dotContainer{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    
+.dotContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
-.dotNav{
-    font-size: 20px;
-    color: white;
+.dotNav {
+  font-size: 20px;
+  color: white;
 }
 
 /* this is styling for mobile responsiveness of the website  */
 @media screen and (max-width: 960px) {
   * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
   .mainContainer {
     width: 100%;
-    overflow: hidden;
+    margin-left: 0;
+    padding: 0;
   }
-  
+
   .navContainer {
     display: flex;
     flex-direction: row;
@@ -501,7 +501,7 @@
     width: 100%;
     position: absolute;
   }
-  .navLinksContainer{
+  .navLinksContainer {
     display: flex;
     flex-direction: column;
     /* background-color: red; */
@@ -510,7 +510,7 @@
     align-items: flex-end;
     /* display: none; */
   }
-  .checkboxContainer{
+  .checkboxContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -518,46 +518,45 @@
     align-items: flex-end;
     display: none;
   }
-  .middleNavContainer{
-   float: right;
-   align-items: flex-end;
-   display: block;
-   flex-direction: column;
-   justify-content: flex-end;
-   width: 100%;
-   margin-right: -24px;
-   margin-top: -10px;
+  .middleNavContainer {
+    float: right;
+    align-items: flex-end;
+    display: block;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: -24px;
+    margin-top: -10px;
   }
-  .middleNavContainer ul{
+  .middleNavContainer ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     margin: auto;
   }
-  .middleNavContainer ul li{
+  .middleNavContainer ul li {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
     text-align: right;
     float: right;
   }
-  .rightNavContainer{
+  .rightNavContainer {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
   }
-  .checkbox{
+  .checkbox {
     position: relative;
-    margin-right: 5px; 
+    margin-right: 5px;
     margin-top: 4px;
     cursor: pointer;
     display: block;
     opacity: 0;
     transition: all 1s;
-
   }
-  .checkbox:hover ~ .checkboxContainer{
+  .checkbox:checked ~ .checkboxContainer {
     /* display: block; */
     display: flex;
     flex-direction: column;
@@ -567,17 +566,16 @@
     transition: all 1s;
     background-color: blue;
     z-index: 999;
-    width: 150%;
+    width: 100%;
     padding-right: 20px;
     /* display: none; */
   }
-  .navMenu{
+  .navMenu {
     position: absolute;
     margin-top: -2px;
     display: block;
     opacity: 1;
     transition: all 1s;
-
   }
   .login {
     padding: 10px 40px;
@@ -597,10 +595,9 @@
     text-transform: capitalize;
     font-size: 14px;
     width: 100%;
-
   }
-  .mainSavingContainer{
-    position: relative;
+  .mainSavingContainer {
+    position: absolute;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -609,43 +606,145 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 150px;
+    width: 100%;
   }
-  .mainSavingContainer h1 br{
+  .savingContainerLeft h1 br {
     display: none;
-
   }
-  .mainSavingContainer h1{
+  .savingContainerLeft h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+  .savingContainerLeft p br {
+    display: none;
+  }
+  .savingContainerRight {
+    float: left;
+    align-items: center;
+  }
+  .savingContainerRight img {
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .mainContainerWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 800px;
+  }
+  .bottomContainerWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentContainerWork {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mainChooseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .middleChooseContainer h1 br {
+    display: none;
+  }
+  .chooseContainerLeft h1 br {
+    display: none;
+  }
+  .chooseContainerLeft h1 {
     font-size: 28px;
   }
-  .savingContainerRight{
-    float: left;
-    align-items: flex-start;
+  .middleChooseContainer h1 {
+    margin-top: 50px;
+    font-size: 28px;
+    margin-bottom: 50px;
   }
- .savingContainerRight img{
-  width: 80%;
-  margin-top: 20px;
-  margin-bottom: 20px;
- }
- .mainContainerWork{
+  .chooseContainerLeft p br {
+    display: none;
+  }
+  .chooseContainerRight img {
+    width: 80%;
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+  }
+  .mainInternshipContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .internshipContainerLeft img{
+    width: 60%;
+    margin-top: 50px;
+    object-fit: cover;
+  }
+  .internshipContainerRight h1{
+    font-size: 28px;
+  }
+  .internshipContainerRight p{
+    padding-right: 20px;
+  }
+  .internshipContainerRight p br{
+    display: none;
+  }
+  /* dedicated content mobile styling  */
+  .mainDedicatedContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .dedicatedContainerRight h1 br{
+    display: none;
+  }
+.dedicatedContainerRight h1{
+  font-size: 25px;
+  font-weight: 600px;
+}
+.dedicatedContainerRight{
+  float: left;
+  margin-top: 40px;
+}
+.dedicatedContainerRight img{
+  width: 100%;
+  margin-top: 50px;
+  object-fit: cover;
+  padding-right: 100px;
+}
+.mainPackagesContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: column;
   align-items: center;
-  margin-top: 30px;
- }
- .bottomContainerWork{
+}
+.bottomPackageContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: column;
   align-items: center;
- }
- .contentContainerWork{
+}
+.packageContentContainer{
   margin-bottom: 40px;
- }
- .mainChooseContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- }
+  border: 1px solid red;
+}
 }
