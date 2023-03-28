@@ -747,4 +747,48 @@
   margin-bottom: 40px;
   border: 1px solid red;
 }
+/* comment session styling for footer  */
+.mainCommentContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.commentContentcontainer{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.leftCommentContentContainer img{
+  width: 10%;
+}
+.leftCommentContentContainer h1 br{
+  display: none;
+}
+.leftCommentContentContainer h1{
+  font-size: 25px;
+}
+.arrowContainer{
+  display: none;
+}
+.rightCommentContentContainer{
+  margin-right: 20px;
+}
+.rightCommentContent:first-child {
+  margin-right: 0px;
+}
+.mainRightCommentContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightCommentContent{
+  margin-bottom: 20px;
+}
+.rightCommentContent p br{
+  display: none;
+}
 }
